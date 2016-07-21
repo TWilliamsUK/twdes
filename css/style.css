@@ -1,8 +1,59 @@
 
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Work Sans', sans-serif;	
+	font-size: 0.83em;
+	font-weight: 300;
+	line-height: 1.7em;
+	-webkit-font-feature-settings: "liga", "dlig";
+}
+
+p {
+	display: block;
+	float: left;
+}
+
+h1, h2 {
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 300;
+	-webkit-font-feature-settings: "liga", "dlig";
+}
+
+h1 {
+	font-size: 1.75em;
+	line-height: 1.5em;
+	margin-bottom: 2em;
+}
+
+h2 {
+	font-size: 1.3em;
+	margin-bottom: 2em;
+}
+
+img { 
+	max-width: 100%;
+	display:block; 
+}
+
+
+
+
+
+
+
+
+
+
 .wrapper {
 	margin: auto;
 	max-width: 1350px;
 }
+
+
+
 
 .row {
 	width: 100%;
@@ -11,10 +62,6 @@
 .row, .col-8 {
 	display: flex;
 }
-
-
-
-
 
 .col-4 {
 	width: 33.33330%;
@@ -32,7 +79,25 @@
 	width: 100%;
 }
 
-img {
-	max-width: 100%;
-	display: block;
-}
+
+
+
+
+
+
+/* Fade IMGS on Hover */
+
+.an {background-image: url('../img/an_2.jpg');}
+.jf {background: url('../img/jf_3.jpg');}
+.shine {background: url('../img/shine_2.jpg');}
+.na {background: url('../img/na_2.jpg');}
+.ehwlc {background: url('../img/ehwlc_2.jpg');}
+.su {background: url('../img/su_2.jpg');}
+.sp {background: url('../img/sp_2.jpg');}
+.ehwlc_g {background: url('../img/ehwlc_g_2.jpg');}
+.hs {background: url('../img/hs_2.jpg');}
+.pa {background: url('../img/pa_2.jpg');}
+
+
+
+
