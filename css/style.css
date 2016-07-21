@@ -5,15 +5,14 @@
 
 body {
 	font-family: 'Work Sans', sans-serif;	
-	font-size: 0.83em;
+	font-size: 1em;
 	font-weight: 300;
-	line-height: 1.7em;
+	line-height: 1.4em;
 	-webkit-font-feature-settings: "liga", "dlig";
 }
 
 p {
-	display: block;
-	float: left;
+
 }
 
 h1, h2 {
@@ -52,15 +51,14 @@ img {
 	max-width: 1350px;
 }
 
-
-
-
-.row {
-	width: 100%;
+header, footer {
+	padding: 2em 0;
 }
 
-.row, .col-8 {
+.container {
+	width: 100%;
 	display: flex;
+	flex-wrap: wrap;
 }
 
 .col-4 {
@@ -122,6 +120,38 @@ img {
 .hs {background: url('../img/hs_2.jpg');}
 .pa {background: url('../img/pa_2.jpg');}
 
+.reveal {
+	background-size: cover;
+	overflow: hidden;
+	float: left;
+}
+
+.reveal img, .reveal img:hover {
+	opacity: 1;
+   transition: opacity .5s ease-in-out;
+   -moz-transition: opacity .5s ease-in-out;
+   -webkit-transition: opacity .5s ease-in-out;
+}
+
+.reveal img {
+	width: 100%;
+	height: auto;
+	opacity: 1;
+}
+
+.reveal img:hover {
+	opacity: 0;
+}
 
 
 
+/* Fade site in */
+
+body {
+    opacity: 1;
+    transition: 1s opacity;
+}
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}

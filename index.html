@@ -17,14 +17,15 @@
 
 <body>
 
-
+  <!--Fade On Load-->
+    <script>document.body.className += ' fade-out'; </script>
 
 	<div class="wrapper">
 
     <header class="nav">
 
       <svg  class="w_logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-       width="64px" height="64px" viewBox="0 0 102.73 102.744" enable-background="new 0 0 102.73 102.744"
+       width="50px" height="50px" viewBox="0 0 102.73 102.744" enable-background="new 0 0 102.73 102.744"
        xml:space="preserve">
         <g>
           <path fill="#1E1E1C" stroke="#1E1E1C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
@@ -38,73 +39,79 @@
 
     <section>
 
-    <!-- ROW 1 -->
-    <div class="row">
-      <div class="col-8">
-        <img src="img/jf_2.jpg">
-      </div>
-      <div class="col-4">
-        <img src="img/an_1.jpg">
-        <img src="img/jf_1.jpg">
-      </div>
-    </div>
+      <!-- ROW 1 -->
+      <div class="container">
 
-    <!-- ALT ROW -->
-    <div class="row">
+        <div class="col-8">
+          <div class="reveal jf"><img src="img/jf_2.jpg"></div>
+        </div>
+        <div class="col-4">
+          <div class="reveal an"><img src="img/an_1.jpg"></div>
+          <div class="reveal sp"><img src="img/sp_1.jpg"></div>
+        </div>
 
-      <div class="col-8">
-
-        <div class="col-6">
-          <img src="img/jf_2.jpg">
-          <img src="img/jf_2.jpg">
+        <div class="col-4">
+          <div class="reveal sh"><img src="img/sh_1.jpg"></div>
+          <div><blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Nothing more frustrating than confusing error messages—learn to speak plainly in <a href="https://twitter.com/hashtag/UX?src=hash">#UX</a> <a href="https://t.co/a8tenrs1ID">https://t.co/a8tenrs1ID</a> <a href="https://twitter.com/Adobe">@Adobe</a> <a href="https://t.co/Tk7x6jbkb0">pic.twitter.com/Tk7x6jbkb0</a></p>&mdash; AIGA (@AIGAdesign) <a href="https://twitter.com/AIGAdesign/status/737298278908186624">May 30, 2016</a></blockquote>
+          <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
         </div>
         
-        <div class="col-6">
-          <img src="img/jf_2.jpg">
-          <img src="img/jf_2.jpg">
+        <div class="col-4">
+          <div class="reveal na"><img src="img/na_1.jpg"></div>
+          <div class="reveal "><img src="img/jf_2.jpg"></div>
+        </div>
+
+        <div class="col-4">
+          <!-- DBL Height -->
+          <div class="reveal"><img src="img/jf_2_t.jpg"></div>
+        </div>
+
+        <div class="col-4">
+          <div class="reveal"><img src="img/an_1.jpg"></div>
+          <div class="reveal"><img src="img/jf_1.jpg"></div>
+        </div>
+
+        <div class="col-8">
+          <div class="reveal"><img src="img/jf_2.jpg"></div>
         </div>
 
       </div>
-
-      <div class="col-4">
-        <img src="img/jf_2_t.jpg">
-      </div>
-
-    </div>
-
-    <!-- ROW 2 -->
-    <div class="row">
-      <div class="col-4">
-        <img src="img/an_1.jpg">
-        <img src="img/jf_1.jpg">
-      </div>
-      <div class="col-8">
-        <img src="img/jf_2.jpg">
-      </div>
-    </div>
-
-    <!-- ROW 3 
-    <div class="row">
-      <div class="col-8">
-        <img src="img/jf_2.jpg">
-      </div>
-      <div class="col-4">
-        <img src="img/an_1.jpg">
-        <img src="img/jf_1.jpg">
-      </div>
-    </div>
-    -->
 
     </section>
 
-    <footer id="logo">
-      <h1>&copy; Williams Brand Associates <script type="text/javascript">document.write(new Date().getFullYear());</script></h1>
+    <footer>
+
+      <svg  class="w_logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+       width="50px" height="50px" viewBox="0 0 102.73 102.744" enable-background="new 0 0 102.73 102.744"
+       xml:space="preserve">
+        <g>
+          <path fill="#1E1E1C" stroke="#1E1E1C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+          M27.205,32.548l11.777,30.235l12.305-32.432l11.777,32.432l12.51-30.235h7.412L62.771,80.654L51.141,48.603L39.012,80.684
+          L19.793,32.548H27.205z"/>
+        </g>
+        <circle fill="none" stroke="#1E1E1C" stroke-width="8" stroke-miterlimit="10" cx="51.269" cy="51.274" r="46.668"/>
+      </svg>
+
+      <div class="row">
+        <div class="col-4">
+          <p>
+          Williams&amp;Co Design<br>
+          Bristol-based brand and design services<br>
+          Registered in England and Wales. No. 09604828<br>
+          &copy; Williams&amp;Co Design <script type="text/javascript">document.write(new Date().getFullYear());</script>
+          </p>
+        </div>
+        <div class="col-4">
+          <p>
+          E: info@williamsandco.eu<br>
+          T: 07549 269 052
+          </p>
+        </div>
+      </div>
+      
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    
-    <!--Fade On Load-->
-    <script>document.body.className += ' fade-out'; </script>
 
     <!--Remove Fade-->
     <script>$(function() {
