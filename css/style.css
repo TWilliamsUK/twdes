@@ -82,6 +82,30 @@ img {
 
 
 
+/* SVG Animate Styles */
+
+
+
+.w_logo {
+    -webkit-animation: in 1s;
+    transform-origin: 50% 50%;
+}
+
+.w_logo:hover {
+    -webkit-animation: out 1s;
+}
+
+@-webkit-keyframes in {
+    from   { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg);}
+}
+
+@-webkit-keyframes out {
+    0%   { -webkit-transform: rotate(360deg); }
+    100% { -webkit-transform: rotate(0deg); }
+}
+
+
 
 
 
