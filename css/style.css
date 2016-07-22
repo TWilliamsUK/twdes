@@ -284,7 +284,7 @@ nav a {
     display: none;
   }
 
-  header .col-4:first-child p {
+  header .col-4 p {
     margin-bottom: 0;
   }
 
