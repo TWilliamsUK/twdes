@@ -114,7 +114,7 @@ footer {
 
 /* Twitter Block */
 blockquote.twitter-tweet {
-	margin-top: 4em;
+	margin-top: 10%;
 }
 
 blockquote.twitter-tweet a {
@@ -242,14 +242,14 @@ nav a {
 
 @media all and (max-width: 1400px) {
 
-  header {
-    margin-left: 2em;
+  header, footer {
+    margin: 0 2em;
   }
 
+}
 
 @media all and (max-width: 900px) {
 
-  
   .col-4 {
     width: 50%;
   }
@@ -262,15 +262,44 @@ nav a {
     width: 100%;
   }
 
+}
+
+@media all and (min-width: 900px) and (max-width: 1025px) {
+
+  blockquote.twitter-tweet {
+    font-size: .8em;
+    margin-top: 7.5%;
+  }
+
+}
+
+
+@media all and (max-width: 700px) {
+
+  .col-4 {
+    width: 100%;
+  }
+
+  blockquote.twitter-tweet, .reveal.br {
+    display: none;
+  }
+
+}
+
+
+
+
+
+
+/* Nav 
 
 @media all and (max-width: 800px) {
 
 
-
-/* Nav */
   nav {
     justify-content: space-around;
   }
+
 }
 
 
@@ -280,7 +309,7 @@ nav a {
 
 
 
-/* Nav */
+
   nav {
     -webkit-flex-flow: column wrap;
     flex-flow: column wrap;
@@ -299,3 +328,6 @@ nav a {
     border-bottom: none;
   }
 }
+
+
+*/
