@@ -113,19 +113,19 @@ footer {
 
 
 /* Twitter Block */
-blockquote.twitter-tweet {
+blockquote.tweet {
 	margin-top: 10%;
 }
 
-blockquote.twitter-tweet a {
+blockquote.tweet  a {
 	border-bottom: 1px solid #ddd;
 }
 
-blockquote.twitter-tweet a:hover {
+blockquote.tweet a:hover {
 	color: #ddd;
 }
 
-blockquote.twitter-tweet:after {
+blockquote.tweet:after {
   content: '';
   display: block;
   height: 30px;  /*height of icon */
@@ -266,7 +266,7 @@ nav a {
 
 @media all and (min-width: 900px) and (max-width: 1025px) {
 
-  blockquote.twitter-tweet {
+  blockquote.tweet {
     font-size: .8em;
     margin-top: 7.5%;
   }
@@ -280,8 +280,12 @@ nav a {
     width: 100%;
   }
 
-  blockquote.twitter-tweet, .reveal.br {
+  blockquote.tweet, .reveal.br {
     display: none;
+  }
+
+  header .col-4:first-child p {
+    margin-bottom: 0;
   }
 
 }
