@@ -262,6 +262,12 @@ nav a {
     width: 100%;
   }
 
+  .flex-switch {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
 }
 
 @media all and (min-width: 900px) and (max-width: 1025px) {
